@@ -1,0 +1,59 @@
+body{
+    background: url(images/backg.jpg) center center fixed;
+    background-size: cover;
+    color: #fff
+}
+/*style title and counters*/
+#title{
+    color: #fff;
+    font-size: 7vw;
+    text-align: center;
+}
+#lap{
+    text-align: right;
+    font-size: 4vw;
+}
+#time{
+    text-align: center;
+    font-size: 8vw;
+}
+/*style controls*/
+.control{
+    color: #fff;
+    background-color: #910808;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    text-align: center;
+    padding: 25% 0;
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+@media(max-width:768px){
+    .control{
+        height: 15vw;
+        width: 15vw;
+        padding: 35% 0;
+    }
+}
+.control:active{
+    background-color: white;
+    color: black;
+}
+#laps{
+    max-height: 270px;
+    overflow-y: scroll;
+}
+.lap{
+    height: 50px;
+    border-bottom: 1px solid white;
+    margin: 15px;
+}
+.lapTimeTitle{
+    font-size: 1.5em;
+    float: left;
+}
+.lapTime{
+    font-size: 2em;
+    float: right;
+}
